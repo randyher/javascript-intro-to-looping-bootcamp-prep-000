@@ -16,3 +16,10 @@ function whileLoop(x){
 }
 return "done"
 }
+
+function doWhileLoop(array){
+do {
+    array.pop()
+} while (maybeTrue());
+return array
+}
